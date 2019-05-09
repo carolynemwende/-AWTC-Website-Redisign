@@ -31,6 +31,18 @@ def duplicate():
 	print(a)
 
 
+def school():
+	student1 = {"age": 12, "name": "emma"}
+	student2 = {"age": 19, "name": "vera"}
+	student3 =  {"age": 31, "name": "caro"}
+	student4 = {"age": 15, "name": "mwende"}
+
+	students = [student1,student2,student3,student4]
+	
+	for student in students:
+		year = 2019-student['age']
+		print ("Hello {}, you were born in year {}.".format(student['name'],year))
+
 
 
 
