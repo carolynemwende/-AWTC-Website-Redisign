@@ -1,19 +1,20 @@
-def smallest(b):
-	return min(b)
+def smallest(a):
+	return min(a)
 
-def rem(a):
-	a=(x%3 for x in range(110,150))
-	return a	  
+def reminder(b):
+	b=(x%3 for x in range(110,150))
+	return b	  
     
 
 def sorted(a,b,c):
-	k= a+b+c
-	print(k)
-
+	p= a+b+c
+	p.sort()
+	print (p)
 
 
 def divisible_by_three(n):
-	div= (range(1,n+1))/3
+	number= range(1,n+1)
+	div=(number/3)
 	print (div)
 
 
@@ -26,13 +27,10 @@ def flatlist(x):
 			print(flatlist)
 
 def duplicate():
-	a= set(['a','b','a','e','d','b','c','e','f','g','h'])
+	a=set()
 	print(a)
 
 
-# def squares(keys,values):
-# 	a=dict()
-# 	for x in range(149,159)
 
 
 
